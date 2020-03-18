@@ -5,7 +5,8 @@ module.exports = {
       options: {},
     },
     `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-cname`
+    `gatsby-plugin-cname`,
+    `gatsby-plugin-netlify`
   ],
   // Customize your site metadata:
   siteMetadata: {
