@@ -1,7 +1,7 @@
 ---
 title: Newer post that I want to add
 date: 2020-03-18T10:34:19.432Z
-description: DESCription of the psots
+description: Description of the psots
 ---
 ### This is the best post believe me or not.
 
