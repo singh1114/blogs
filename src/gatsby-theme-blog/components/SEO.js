@@ -62,11 +62,9 @@ const query = graphql`
     site {
       siteMetadata {
         defaultTitle: title
-        titleTemplate
         defaultDescription: description
         siteUrl: url
         defaultImage: image
-        twitterUsername
       }
     }
   }
