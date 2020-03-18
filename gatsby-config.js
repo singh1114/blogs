@@ -13,7 +13,7 @@ module.exports = {
     title: `Journey`,
     author: `Ranvir Singh`,
     description: `Tech and everything`,
-    siteUrl: 'http://foobar.co.za/',
+    siteUrl: 'http://blog.ranvir.xyz/',
     social: [
       {
         name: `twitter`,
