@@ -5,12 +5,16 @@ description: Description of the psots
 ---
 ### This is the best post believe me or not.
 
-you will regret this
+You will regret this.
 
 ```javascript
 const abc = (a, b) => {
     return a * b;
 }
+
+abc(3, 2);
+
+// Send your answers quickly and win nothing.
 ```
 
 I want to add a lot of images and check the performance.
