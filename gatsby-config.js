@@ -4,13 +4,15 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-cname`
   ],
   // Customize your site metadata:
   siteMetadata: {
     title: `Journey`,
     author: `Ranvir Singh`,
     description: `Tech and everything`,
+    siteUrl: 'http://foobar.co.za/',
     social: [
       {
         name: `twitter`,
