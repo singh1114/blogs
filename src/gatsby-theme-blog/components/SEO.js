@@ -59,11 +59,13 @@ export default SEO
 
 const query = graphql`
   query SEO {
-    site {
+    site(siteMetadata: {title: {}, social: {}, description: {}, author: {}}) {
+      id
       siteMetadata {
         defaultTitle: title
+        Author: author
         defaultDescription: description
-        defaultImage: image
+        url: siteUrl
       }
     }
   }
