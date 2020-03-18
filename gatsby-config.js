@@ -4,6 +4,7 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
+    `gatsby-plugin-mdx`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-cname`,
     `gatsby-plugin-netlify`
