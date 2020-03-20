@@ -1,7 +1,7 @@
 ---
 title: Create react based blazingly fast blog using Netlify CMS and Gatsby
 date: 2020-03-20T22:29:04.190Z
-image: 'https://google.com'
+image: 'https://i.imgur.com/Dq9owl5.png'
 published: true
 tags:
   - blogging
@@ -9,9 +9,11 @@ tags:
   - netlifycms
   - gatsby
 description: >-
-  Create awesome react based blog using Gatsby and netlify easily by following
-  this post.
+  Create awesome react based blog using Gatsby and netlify CMS easily by
+  following this post.
 ---
+![create a react blog using Gatsby and netlify CMS](https://i.imgur.com/Dq9owl5.png)
+
 I have been writing posts on a [Jekyll and GitHub pages blog](https://ranvir.xyz/blog) since a long time. Some weeks ago, my colleague shared the Gatsby blog that he created for his personal blog.
 
 He has also written a good post on [JavaScript Proxies](https://www.arbazsiddiqui.me/javascript-proxies-real-world-use-cases/) that you will enjoy reading.
