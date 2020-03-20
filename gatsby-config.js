@@ -11,7 +11,7 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `Journey`,
+    title: `Ranvir Singh`,
     author: `Ranvir Singh`,
     description: `Tech and everything`,
     siteUrl: 'http://blog.ranvir.xyz/',
@@ -19,11 +19,11 @@ module.exports = {
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/ranvirsingh1114`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/singh1114`,
       },
     ],
   },
