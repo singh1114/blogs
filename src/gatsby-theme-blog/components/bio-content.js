@@ -7,6 +7,6 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    Share everything you learn.
+    Share everything you learn with fun.
   </Fragment>
 )

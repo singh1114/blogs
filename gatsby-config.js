@@ -15,6 +15,7 @@ module.exports = {
     author: `Ranvir Singh`,
     description: `Tech and everything`,
     siteUrl: 'http://blog.ranvir.xyz/',
+    image: "abc.png",
     social: [
       {
         name: `twitter`,
