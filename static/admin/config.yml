@@ -5,7 +5,6 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-branch: gh-pages
 
 collections:
   - name: "blog"
