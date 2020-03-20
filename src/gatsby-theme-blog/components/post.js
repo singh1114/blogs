@@ -18,7 +18,6 @@ const Post = ({
   next,
 }) => (
   <Layout location={location} title={title}>
-    {console.log("hi", post)}
     <SEO title={post.title} description={post.description} slug={post.slug} id={post.id}/>
     <main>
       <Styled.h1>{post.title}</Styled.h1>

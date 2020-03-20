@@ -42,8 +42,6 @@ function SEO({ description, lang, meta, keywords, title, slug, id }) {
         }
       }
     `)
-  console.log('first', slug, allBlogPost, id);
-  // console.log("fss", slug, description, site.siteMetadata.description);
   let metaDescription = description || site.siteMetadata.description;
   let image;
 
@@ -54,9 +52,7 @@ function SEO({ description, lang, meta, keywords, title, slug, id }) {
         return true
       }
     })
-    // console.log(realmdxBlogPost);
     realmdxBlogPost.map(mdxBlogPost => {
-      console.log(mdxBlogPost.node.parent.frontmatter, 'data');
       metaDescription = mdxBlogPost.node.parent.frontmatter.description;
       image = mdxBlogPost.node.parent.frontmatter.image;
     })
