@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: singh1114/blogs
-  branch: master
+  branch: gh-pages
 
 media_folder: static/img
 public_folder: /img
