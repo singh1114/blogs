@@ -21,3 +21,21 @@ Whenever I see a new website, I immediately head over to Google's pagespeed insi
 ![PageSpeed numbers for a React based Gatsby blog](https://i.imgur.com/UsKCfsh.png)
 
 Honestly speaking I was never able to reach to those numbers on the Jekyll blog.
+
+So, I started working on my personal Gatsby blog. This post will contain all the details which I happen to do to make this blog to the stage it is currently at.
+
+Also, currently I don't have the concept of private posts on this blog, I am unable to keep it private when it is clearly not finished. You have to bear with for this.
+
+## Prerequisites
+
+I don't think there are any prerequisites required to start a blog using Gatsby and Netlify CMS, It is fairly easy to setup if you know how to make changes and use basic GitHub.
+
+The basic things required for this specific version of post are:
+
+* Domain Name
+
+I already had a domain name which I was already using. It will still work if you don't have it though. 🙏
+
+* GitHub account
+
+To follow this tutorial, you will need to have a GitHub account where the code for the blog can reside. There are other ways to keep the code, but I think GH provides the easiest way to maintain your code.
