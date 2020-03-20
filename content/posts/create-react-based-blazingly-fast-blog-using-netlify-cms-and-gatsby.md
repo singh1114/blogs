@@ -12,7 +12,7 @@ description: >-
   Create awesome react based blog using Gatsby and netlify CMS easily by
   following this post.
 ---
-![create a react blog using Gatsby and netlify CMS](https://i.imgur.com/Dq9owl5.png)
+![Create a React blog using Gatsby and netlify CMS](https://i.imgur.com/Dq9owl5.png)
 
 I have been writing posts on a [Jekyll and GitHub pages blog](https://ranvir.xyz/blog) since a long time. Some weeks ago, my colleague shared the Gatsby blog that he created for his personal blog.
 
