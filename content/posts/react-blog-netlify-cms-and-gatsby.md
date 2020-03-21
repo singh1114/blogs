@@ -30,7 +30,7 @@ Also, currently I don't have the concept of private posts on this blog, I am una
 
 ## Prerequisites
 
-I don't think there are any prerequisites required to start a blog using Gatsby and Netlify CMS, It is fairly easy to setup if you know how to make changes and use basic GitHub.
+I don't think there are any prerequisites required to start a blog using Gatsby and Netlify CMS, It is fairly easy to set up if you know how to make changes and use basic GitHub.
 
 The basic things required for this specific version of post are:
 
@@ -38,8 +38,20 @@ The basic things required for this specific version of post are:
 
 I already had a domain name which I was already using. It will still work if you don't have it though. 🙏
 
-### GitHub account
+### GitHub Account
 
 To follow this tutorial, you will need to have a GitHub account where the code for the blog can reside. There are other ways to keep the code, but I think GH provides the easiest way to maintain your code.
 
+### Netlify Account
+
+You will also need account on Netlify so that you can deploy and 
+
 The rest of the stuff we are going to figure out during the course of the post.
+
+Let's begin
+
+## Choose a theme
+
+You can choose from a list of themes that are available. Most of them has `deploy on Netlify` button which will deploy it directly on Netlify and can save the code to your Netlify Account. Next time you make any change to your code, netlify will automatically detect the change and deploy the change.
+
+I choose the basic [gatsby-theme-blog](https://www.netlify.com/with/gatsby/). Just click on the deploy button and choose where you want to host the code and it will host the code on GitHub.
