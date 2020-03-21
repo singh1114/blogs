@@ -72,7 +72,7 @@ git clone https://github.com/your_repo/repo_name
 
 For more information on various [git commands check this post](https://ranvir.xyz/blog/basic-commands-in-github/).
 
-The first thing to change if the `gatsby-config.js` file. Change `siteMetadata`
+The first thing to change if the `gatsby-config.js` file. Change `siteMetadata` as follows
 
 ```javascript
   siteMetadata: {
