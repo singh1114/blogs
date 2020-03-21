@@ -70,3 +70,26 @@ git clone https://github.com/your_repo/repo_name
 
 For more information on various [git commands check this post](https://ranvir.xyz/blog/basic-commands-in-github/).
 
+The first thing to change if the `gatsby-config.js` file. Change `siteMetadata`
+
+```javascript
+  siteMetadata: {
+    title: `Tutorial blog`,
+    author: `Ranvir`,
+    description: `Basic description of the blog`,
+  ...
+```
+
+Push the code and you will see the changes being deployed in your Netlify account. `https://app.netlify.com/sites/your_site_id/deploys`.
+
+```bash
+git push origin master
+```
+
+After some time the changes will be available on the current website.
+
+## Adding Netlify CMS
+
+Adding Netlify CMS will help you to quickly make changes to your posts and deploy them with a click of a button. All your posts are at a single place.
+
+ 
