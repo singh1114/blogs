@@ -92,4 +92,46 @@ After some time the changes will be available on the current website.
 
 Adding Netlify CMS will help you to quickly make changes to your posts and deploy them with a click of a button. All your posts are at a single place.
 
- 
+You can create and edit your posts easily using the Netlify CMS.
+
+For adding Netlify CMS and allowing editing using GitHub Login, you will have to add a `static` directory to the root of your code.
+
+Add this to the `static/admin/config.yml` file.
+
+```yml
+backend:
+  name: github
+  repo: singh1114/tutorial
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "string", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+```
+
+You can change the fields using [widget guide](https://www.netlifycms.org/docs/widgets/) according to your needs.
+
+After deploying this you can access the website's admin panel on `https://web.netlify.com/admin`.
+
+For turning on the GitHub login on your website's admin page, so that only you can edit the posts, you will have to turn on the OAuth access using your Netlify account.
+
+Just go to the `settings tab > Access Control > OAuth >Install Provider`. For installing, you will need auth credentials which you can generate using the [GitHub Application page](https://github.com/settings/applications/)
+
+Add your netlify address as the home page URL and `https://api.netlify.com/auth/done` as callback.
+
+Once done, you will be able to Login to the admin panel and make changes to the posts directly.
