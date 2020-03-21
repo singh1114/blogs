@@ -58,6 +58,8 @@ Let's begin
 
 You can choose from a list of themes that are available. Most of them has `deploy on Netlify` button which will deploy it directly on Netlify and can save the code to your Netlify Account. Next time you make any change to your code, netlify will automatically detect the change and deploy the change.
 
+![Deploy Gatsby blog on Netlify using GitHub](https://i.imgur.com/Ag2ERnJ.png)
+
 I choose the basic [gatsby-theme-blog](https://www.netlify.com/with/gatsby/). Just click on the deploy button and choose `Connect to GitHub` the code and it will host the code on GitHub. Finally, choose the name of the Repository that you want to contain the code in.
 
 ## Making the changes
@@ -81,6 +83,8 @@ The first thing to change if the `gatsby-config.js` file. Change `siteMetadata`
 ```
 
 Push the code and you will see the changes being deployed in your Netlify account. `https://app.netlify.com/sites/your_site_id/deploys`.
+
+![Changes to GitHub code deploys blog on Netlify](https://i.imgur.com/ACODtqR.png)
 
 ```bash
 git push origin master
@@ -135,3 +139,5 @@ Just go to the `settings tab > Access Control > OAuth >Install Provider`. For in
 Add your netlify address as the home page URL and `https://api.netlify.com/auth/done` as callback.
 
 Once done, you will be able to Login to the admin panel and make changes to the posts directly.
+
+![Admin panel for Gatsby blog on Netlify CMS](https://i.imgur.com/CEM2fBI.png)
