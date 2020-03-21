@@ -43,4 +43,3 @@ I already had a domain name which I was already using. It will still work if you
 To follow this tutorial, you will need to have a GitHub account where the code for the blog can reside. There are other ways to keep the code, but I think GH provides the easiest way to maintain your code.
 
 The rest of the stuff we are going to figure out during the course of the post.
- 
