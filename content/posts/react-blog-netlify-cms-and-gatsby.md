@@ -28,6 +28,10 @@ So, I started working on my personal Gatsby blog. This post will contain all the
 
 Also, currently I don't have the concept of private posts on this blog, I am unable to keep it private when it is clearly not finished. You have to bear with for this.
 
+## Final result
+
+The final blog after this series is going to be [present on this URL](https://peaceful-mayer-ecb11a.netlify.com/).
+
 ## Prerequisites
 
 I don't think there are any prerequisites required to start a blog using Gatsby and Netlify CMS, It is fairly easy to set up if you know how to make changes and use basic GitHub.
@@ -54,4 +58,15 @@ Let's begin
 
 You can choose from a list of themes that are available. Most of them has `deploy on Netlify` button which will deploy it directly on Netlify and can save the code to your Netlify Account. Next time you make any change to your code, netlify will automatically detect the change and deploy the change.
 
-I choose the basic [gatsby-theme-blog](https://www.netlify.com/with/gatsby/). Just click on the deploy button and choose where you want to host the code and it will host the code on GitHub.
+I choose the basic [gatsby-theme-blog](https://www.netlify.com/with/gatsby/). Just click on the deploy button and choose `Connect to GitHub` the code and it will host the code on GitHub. Finally, choose the name of the Repository that you want to contain the code in.
+
+## Making the changes
+
+Once your site is deployed on `something.netlify.com`, you can clone the code locally and start making the changes.
+
+```shell
+git clone https://github.com/your_repo/repo_name
+```
+
+For more information on various [git commands check this post](https://ranvir.xyz/blog/basic-commands-in-github/).
+
