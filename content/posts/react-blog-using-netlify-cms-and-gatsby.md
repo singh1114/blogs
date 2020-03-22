@@ -141,3 +141,49 @@ Add your netlify address as the home page URL and `https://api.netlify.com/auth/
 Once done, you will be able to Login to the admin panel and make changes to the posts directly.
 
 ![Admin panel for Gatsby blog on Netlify CMS](https://i.imgur.com/CEM2fBI.png)
+
+## Adding Redirects
+
+As I already told you that I had a domain name and I wanted the website to be hosted on that `https://blog.ranvir.xyz` and not on `something.netlify.com`. For this we will need to set up `CNAME` record in your domain name provider.
+
+You can find more about what record to set with simple google search.
+
+In my case, where I was using a subdomain, I had to use `blog` as a host and `something.netlify.com` as value.
+
+After that is done you can redirect, `something.netlify.com` to `blog.ranvir.xyz` by creating a redirect file.
+
+Create `static/_redirects` file and add the following content to it.
+
+```
+# Redirect default Netlify subdomain to primary domain
+https://something.netlify.com/* http://blog.ranvir.xyz/:splat 301!
+```
+ 
+This will create a `301` permanent redirect.
+
+## Adding Google Analytics
+
+Adding analytics to your website can be very useful, you can check how many people are looking at your website at every given moment.
+
+You just have to install a basic `npm` package and add the Google Analytics tracking ID to your code.
+
+```bash
+npm install --save gatsby-plugin-google-analytics
+```
+
+Now change the code in the config file.
+
+```javascript
+module.exports = {
+  plugins: [
+    ...
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-*******-*'
+      }
+    },
+    ...
+```
+
+You can take the tracking ID from the Google Analytics dashboard.
