@@ -4,6 +4,12 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-73349527-9'
+      }
+    },
     `gatsby-plugin-mdx`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-cname`,
