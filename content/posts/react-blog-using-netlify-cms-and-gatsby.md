@@ -187,3 +187,5 @@ module.exports = {
 ```
 
 You can take the tracking ID from the Google Analytics dashboard.
+
+Hope you liked the post. If you did please share with your friends.
