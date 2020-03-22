@@ -14,7 +14,7 @@ description: >-
 ---
 ![Create a React blog using Gatsby and netlify CMS](https://i.imgur.com/Dq9owl5.png)
 
-I have been writing posts on a [Jekyll and GitHub pages blog](https://ranvir.xyz/blog) since a long time. Some weeks ago, my colleague shared the Gatsby blog that he created for his personal blog.
+I have been writing posts on a [Jekyll and GitHub pages blog](https://ranvir.xyz/blog) since a long time. Some weeks ago, my colleague shared the Gatsby blog that he created for his personal use.
 
 He has also written a good post on [JavaScript Proxies](https://www.arbazsiddiqui.me/javascript-proxies-real-world-use-cases/) that you will enjoy reading.
 
@@ -22,7 +22,7 @@ Whenever I see a new website, I immediately head over to Google's pagespeed insi
 
 ![PageSpeed numbers for a React based Gatsby blog](https://i.imgur.com/UsKCfsh.png)
 
-Honestly speaking I was never able to reach to those numbers on the Jekyll blog.
+Honestly speaking I was never able to reach to those numbers on the [Jekyll blog](https://ranvir.xyx/blog).
 
 So, I started working on my personal Gatsby blog. This post will contain all the details which I happen to do to make this blog to the stage it is currently at.
 
