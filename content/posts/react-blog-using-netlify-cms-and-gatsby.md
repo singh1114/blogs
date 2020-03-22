@@ -40,7 +40,7 @@ The basic things required for this specific version of post are:
 
 ### Domain Name
 
-I already had a domain name which I was already using. It will still work if you don't have it though. 🙏
+I already had a [domain name](https://ranvir.xyz) which I was already using. It will still work if you don't have it though. 🙏
 
 ### GitHub Account
 
