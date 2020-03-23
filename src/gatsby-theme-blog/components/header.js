@@ -85,6 +85,21 @@ export default ({ children, title, ...props }) => {
     setColorMode(isDark ? `light` : `dark`)
   }
 
+  children = [
+    <a key="about-header" css={css({
+      boxShadow: `none`,
+      textDecoration: `none`,
+      color: `primary`,})} href="https://ranvir.xyz/blog/about/"><h3><strong>About</strong></h3>
+    </a>,
+    <a key="subscribe-header" css={css({
+      boxShadow: `none`,
+      textDecoration: `none`,
+      color: `primary`,
+    })} href="https://ranvir.xyz/blog/subscribe/">
+      <h3><strong>Subscribe</strong></h3>
+    </a>
+  ]
+
   return (
     <header>
       <div
