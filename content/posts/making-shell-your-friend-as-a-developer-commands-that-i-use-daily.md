@@ -1,5 +1,5 @@
 ---
-title: Making shell your friend as a developer | Commands that I use daily
+title: Making shell your friend | Commands that I use daily
 date: 2020-03-23T20:34:46.315Z
 published: true
 tags:
