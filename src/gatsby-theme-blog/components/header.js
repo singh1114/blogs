@@ -86,17 +86,28 @@ export default ({ children, title, ...props }) => {
   }
 
   children = [
-    <a key="about-header" css={css({
+    <Styled.a key="about-header" css={css({
       boxShadow: `none`,
       textDecoration: `none`,
-      color: `primary`,})} href="https://ranvir.xyz/blog/about/"><h3><strong>About</strong></h3>
-    </a>,
+      color: `primary`,})} href="https://ranvir.xyz/blog/about/">
+      <Styled.h3 as="p" css={css({
+        my: 0,
+        fontSize: 3
+      })}>
+        About
+      </Styled.h3>
+    </Styled.a>,
     <a key="subscribe-header" css={css({
       boxShadow: `none`,
       textDecoration: `none`,
       color: `primary`,
     })} href="https://ranvir.xyz/blog/subscribe/">
-      <h3><strong>Subscribe</strong></h3>
+      <Styled.h3 as="p" css={css({
+        my: 0,
+        fontSize: 3
+      })}>
+        Subscribe
+      </Styled.h3>
     </a>
   ]
 
