@@ -30,6 +30,7 @@ function SEO({ description, lang, meta, keywords, title, slug, id }) {
                     frontmatter {
                       description
                       image
+                      canonical_url
                     }
                   }
                 }
@@ -44,6 +45,7 @@ function SEO({ description, lang, meta, keywords, title, slug, id }) {
     `)
   let metaDescription = description || site.siteMetadata.description;
   let image;
+  let canonical_url;
 
   // It is a Post.
   if (id) {
@@ -55,7 +57,58 @@ function SEO({ description, lang, meta, keywords, title, slug, id }) {
     realmdxBlogPost.map(mdxBlogPost => {
       metaDescription = mdxBlogPost.node.parent.frontmatter.description;
       image = mdxBlogPost.node.parent.frontmatter.image;
+      canonical_url = mdxBlogPost.node.parent.frontmatter.canonical_url;
     })
+  }
+
+  let meta_data = [
+    {
+      name: `description`,
+      content: metaDescription,
+    },
+    {
+      property: `og:title`,
+      content: title,
+    },
+    {
+      property: `og:description`,
+      content: metaDescription,
+    },
+    {
+      property: `og:type`,
+      content: `website`,
+    },
+    {
+      name: `twitter:card`,
+      content: `summary`,
+    },
+    {
+      name: `twitter:creator`,
+      content: site.siteMetadata.author,
+    },
+    {
+      name: `twitter:title`,
+      content: title,
+    },
+    {
+      name: `twitter:description`,
+      content: metaDescription,
+    },
+    {
+      name: `twitter:image`,
+      content: image,
+    },
+    {
+      name: `og:image`,
+      content: image,
+    }
+  ];
+
+  if (canonical_url) {
+    meta_data.push({
+      name: `canonical`,
+      content: canonical_url
+    });
   }
 
   return (
@@ -65,48 +118,7 @@ function SEO({ description, lang, meta, keywords, title, slug, id }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-        {
-          name: `twitter:image`,
-          content: image,
-        },
-        {
-          name: `og:image`,
-          content: image,
-        },
-      ]
+      meta={meta_data
         .concat(
           keywords.length > 0
             ? {
