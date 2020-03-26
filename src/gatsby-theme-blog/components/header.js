@@ -85,31 +85,7 @@ export default ({ children, title, ...props }) => {
     setColorMode(isDark ? `light` : `dark`)
   }
 
-  children = [
-    <Styled.a key="about-header" css={css({
-      boxShadow: `none`,
-      textDecoration: `none`,
-      color: `primary`,})} href="https://ranvir.xyz/blog/about/">
-      <Styled.h3 as="p" css={css({
-        my: 0,
-        fontSize: 3
-      })}>
-        About
-      </Styled.h3>
-    </Styled.a>,
-    <a key="subscribe-header" css={css({
-      boxShadow: `none`,
-      textDecoration: `none`,
-      color: `primary`,
-    })} href="https://ranvir.xyz/blog/subscribe/">
-      <Styled.h3 as="p" css={css({
-        my: 0,
-        fontSize: 3
-      })}>
-        Subscribe
-      </Styled.h3>
-    </a>
-  ]
+  children = []
 
   return (
     <header>
