@@ -1,6 +1,7 @@
 ---
 title: Why you should not use Google Optimizer and How to use if you want to?
 date: 2020-03-26T20:39:45.381Z
+image: 'https://i.imgur.com/RaWmJf3.png'
 published: true
 tags:
   - blog
@@ -11,6 +12,8 @@ description: >-
   Using Google optimize to show a different version of my website and why
   shouldn't you use it.
 ---
+![Using Google Optimizer at your own risk](https://i.imgur.com/RaWmJf3.png)
+
 How would you like to show a modified version of the same webpage to diverse users differently?
 
 What we want to achieve in the post is to change the structure of the page dynamically without you making any change to your code( False promise).
