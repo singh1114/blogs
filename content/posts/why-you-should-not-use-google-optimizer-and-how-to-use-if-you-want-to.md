@@ -32,7 +32,7 @@ As the [main blog](https://ranvir.xyz/blog) contains most of the posts and does 
 
 Before jumping into any conclusion, I wanted to validate my theory with numbers.
 
-## Performance metric I was looking at
+## Performance metric I was looking to improve
 
 The key metric that I was looking to improve was the `bounce rate`. One of the pages for which I was getting maximum page views was having a high value of bounce rate( 88%).
 
