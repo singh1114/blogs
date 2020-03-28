@@ -15,4 +15,6 @@ This page should automatically redirect. If it doesn't [click here](https://ranv
 
 $$
 MAE = \frac{1}{n}\sum\left | Y_a - Y_e \right |
+
+P_r(Y=j|X=x_o) = \frac{1}{K}\sum_{i\epsilon N_o}I(y_i = j)
 $$
