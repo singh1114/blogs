@@ -10,6 +10,14 @@ module.exports = {
         trackingId: 'UA-73349527-9'
       }
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-mathjax`,
+        ],
+      },
+    },
     `gatsby-plugin-mdx`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-cname`,
