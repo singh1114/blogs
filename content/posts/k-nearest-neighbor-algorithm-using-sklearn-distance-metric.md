@@ -10,3 +10,9 @@ description: >-
 Introduction to K-nearest neighbour( KNN) algorithm using sklearn. Using different distance metrics and why is it important to normalize KNN features?
 
 This page should automatically redirect. If it doesn't [click here](https://ranvir.xyz/blog/k-nearest-neighbor-algorithm-using-sklearn-distance-metric)
+
+## Test math formula
+
+$$
+MAE = \frac{1}{n}\sum\left | Y_a - Y_e \right |
+$$
