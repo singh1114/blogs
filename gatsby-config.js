@@ -13,14 +13,15 @@ module.exports = {
     `gatsby-plugin-mdx`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-cname`,
-    `gatsby-plugin-netlify`
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-sitemap`
   ],
   // Customize your site metadata:
   siteMetadata: {
     title: `Ranvir Singh`,
     author: `Ranvir Singh`,
     description: `Tech and everything`,
-    siteUrl: 'http://blog.ranvir.xyz/',
+    siteUrl: 'https://blog.ranvir.xyz/',
     image: "abc.png",
     social: [
       {
