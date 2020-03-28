@@ -10,7 +10,8 @@ tags:
   - marketing
 description: >-
   Using Google optimize to show a different version of my website and why
-  shouldn't you use it.
+  shouldn't you use it including pagespeed of after and before the addition of
+  Google Optimizer.
 ---
 ![Using Google Optimizer at your own risk](https://i.imgur.com/RaWmJf3.png)
 
