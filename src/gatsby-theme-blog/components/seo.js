@@ -101,6 +101,10 @@ function SEO({ description, lang, meta, keywords, title, slug, id }) {
     {
       name: `og:image`,
       content: image,
+    },
+    {
+      name: `google-site-verification`,
+      content: `V81FC8u1ix8HcIGyryb7BEVRzuLKVhnjWjFRKL5R4r0`
     }
   ];
 
