@@ -1,6 +1,6 @@
 ---
 title: Create react based blazingly fast blog using Netlify CMS and Gatsby
-date: 2020-03-20T22:29:04.190Z
+date: 2020-04-25T22:29:04.190Z
 image: 'https://i.imgur.com/Dq9owl5.png'
 published: true
 tags:
